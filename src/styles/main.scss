@@ -1,0 +1,85 @@
+body {
+  font-family: sans-serif;
+  color: #212121;
+}
+
+ul {
+  list-style: none;
+}
+
+.paper {
+  padding: 40px 20px;
+  border-radius: 5px;
+  background-color: white;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.container {
+  width: 100%;
+  max-width: 900px;
+  padding: 0 15px;
+  margin: auto;
+}
+
+.main-wrapper {
+  padding-top: 100px;
+  min-height: 100vh;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.center {
+  text-align: center;
+}
+
+.mb-1 {
+  margin-bottom: 30px;
+}
+
+.input {
+  padding: 5px 10px;
+}
+
+.button {
+  padding: 5px 10px;
+  background-color: #212121;
+  color: white;
+  border-color: #212121;
+}
+
+.single-receipe {
+  text-align: center;
+}
+
+a {
+  color: #f31457;
+  text-decoration: none;
+}
+
+.big {
+  font-size: 30px;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.recipe {
+  width: calc(50% - 40px);
+  margin: 20px;
+  &__photo {
+    width: 100%;
+    height: 150px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 15px;
+  }
+}
+
+.start-photo {
+  width: 100%;
+}
