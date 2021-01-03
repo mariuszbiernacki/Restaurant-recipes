@@ -1,3 +1,14 @@
+### 🔧 Technology Stack
+
+- React.js
+- SASS
+
+# Restaurant-recipes
+
+<br />
+link to demo version:  https://restaurant-receipes-search-app.netlify.app/
+<br />
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
